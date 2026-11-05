@@ -987,7 +987,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8650-common/proprietary/vendor/etc/qcril_database/upgrade/other/0015_version_add_iccid_clir_pref_table.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/other/0015_version_add_iccid_clir_pref_table.sql \
     vendor/oneplus/sm8650-common/proprietary/vendor/etc/sap.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sap.conf \
     vendor/oneplus/sm8650-common/proprietary/vendor/etc/sec_config:$(TARGET_COPY_OUT_VENDOR)/etc/sec_config \
-    vendor/oneplus/sm8650-common/proprietary/vendor/etc/seccomp_policy/atfwd@2.0.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/atfwd@2.0.policy \
     vendor/oneplus/sm8650-common/proprietary/vendor/etc/seccomp_policy/gnss@2.0-base.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/gnss@2.0-base.policy \
     vendor/oneplus/sm8650-common/proprietary/vendor/etc/seccomp_policy/gnss@2.0-edgnss-daemon.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/gnss@2.0-edgnss-daemon.policy \
     vendor/oneplus/sm8650-common/proprietary/vendor/etc/seccomp_policy/gnss@2.0-xtra-daemon.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/gnss@2.0-xtra-daemon.policy \
@@ -1195,7 +1194,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.radio.am-V1-ndk \
     vendor.qti.hardware.radio.am@1.0 \
     vendor.qti.hardware.radio.atcmdfwd@1.0 \
-    vendor.qti.hardware.radio.atfwd-V1-ndk \
     vendor.qti.hardware.radio.common-V1-ndk \
     vendor.qti.hardware.radio.ims-V12-ndk \
     vendor.qti.hardware.radio.ims@1.0 \
@@ -1341,7 +1339,6 @@ PRODUCT_PACKAGES += \
     android.hardware.gnss-aidl-service-qti.xml \
     android.hardware.radio.config.xml \
     android.hardware.secure_element.xml \
-    atfwd-saidl.xml \
     datafactoryservice-saidl.xml \
     deviceinfo-saidl.xml \
     dpm-saidl.xml \
@@ -1359,7 +1356,6 @@ PRODUCT_PACKAGES += \
     manifest_oplus_fingerprint_aidl_v3.xml \
     manifest_oplus_ifaa.xml \
     secure_element_omapi_service.xml \
-    ATFWD-daemon \
     adpl \
     cnd \
     dpmQmiMgr \
