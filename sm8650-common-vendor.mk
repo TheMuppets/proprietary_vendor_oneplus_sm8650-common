@@ -8,7 +8,6 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8650-common/proprietary/odm/etc/charge.cfg:$(TARGET_COPY_OUT_ODM)/etc/charge.cfg \
     vendor/oneplus/sm8650-common/proprietary/odm/etc/horae/horae_target.conf:$(TARGET_COPY_OUT_ODM)/etc/horae/horae_target.conf \
-    vendor/oneplus/sm8650-common/proprietary/odm/etc/init/hw/init.oplus.wifi.rc:$(TARGET_COPY_OUT_ODM)/etc/init/hw/init.oplus.wifi.rc \
     vendor/oneplus/sm8650-common/proprietary/odm/etc/init/init.oplus.sensor.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.oplus.sensor.rc \
     vendor/oneplus/sm8650-common/proprietary/odm/etc/init/init.oppo.reserve.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.oppo.reserve.rc \
     vendor/oneplus/sm8650-common/proprietary/odm/etc/init/init.touchDaemon.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.touchDaemon.rc \
@@ -115,15 +114,12 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8650-common/proprietary/vendor/etc/init/qseecomd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qseecomd.rc \
     vendor/oneplus/sm8650-common/proprietary/vendor/etc/init/qwesd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qwesd.rc \
     vendor/oneplus/sm8650-common/proprietary/vendor/etc/init/ssgtzd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ssgtzd.rc \
-    vendor/oneplus/sm8650-common/proprietary/vendor/etc/init/sxrd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/sxrd.rc \
     vendor/oneplus/sm8650-common/proprietary/vendor/etc/init/vendor.qti.adsprpc-guestos-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.adsprpc-guestos-service.rc \
     vendor/oneplus/sm8650-common/proprietary/vendor/etc/init/vendor.qti.cdsprpc-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.cdsprpc-service.rc \
     vendor/oneplus/sm8650-common/proprietary/vendor/etc/init/vendor.qti.diag.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.diag.rc \
     vendor/oneplus/sm8650-common/proprietary/vendor/etc/init/vendor.qti.hardware.alarm-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.alarm-service.rc \
     vendor/oneplus/sm8650-common/proprietary/vendor/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc \
     vendor/oneplus/sm8650-common/proprietary/vendor/etc/init/vendor.qti.hardware.dsp@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.dsp@1.0-service.rc \
-    vendor/oneplus/sm8650-common/proprietary/vendor/etc/init/vendor.qti.hardware.factory-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.factory-service.rc \
-    vendor/oneplus/sm8650-common/proprietary/vendor/etc/init/vendor.qti.hardware.factory@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.factory@1.0-service.rc \
     vendor/oneplus/sm8650-common/proprietary/vendor/etc/init/vendor.qti.hardware.limits-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.limits-service.rc \
     vendor/oneplus/sm8650-common/proprietary/vendor/etc/init/vendor.qti.hardware.perf2-hal-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.perf2-hal-service.rc \
     vendor/oneplus/sm8650-common/proprietary/vendor/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc \
@@ -136,7 +132,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8650-common/proprietary/vendor/etc/init/vendor.qti.tftp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.tftp.rc \
     vendor/oneplus/sm8650-common/proprietary/vendor/etc/init/vendor.sensors.qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.qti.rc \
     vendor/oneplus/sm8650-common/proprietary/vendor/etc/init/vendor.sensors.sscrpcd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.sscrpcd.rc \
-    vendor/oneplus/sm8650-common/proprietary/vendor/etc/init/vmmgr.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vmmgr.rc \
     vendor/oneplus/sm8650-common/proprietary/vendor/etc/init/vppservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vppservice.rc \
     vendor/oneplus/sm8650-common/proprietary/vendor/etc/init/wfdvndservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wfdvndservice.rc \
     vendor/oneplus/sm8650-common/proprietary/vendor/etc/media_cliffs_v0/video_system_specs.json:$(TARGET_COPY_OUT_VENDOR)/etc/media_cliffs_v0/video_system_specs.json \
@@ -166,21 +161,12 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8650-common/proprietary/vendor/etc/perf/targetresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetresourceconfigs.xml \
     vendor/oneplus/sm8650-common/proprietary/vendor/etc/perf/targetsysnodesconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetsysnodesconfigs.xml \
     vendor/oneplus/sm8650-common/proprietary/vendor/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml \
-    vendor/oneplus/sm8650-common/proprietary/vendor/etc/permissions/vendor.qti.hardware.factory.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor.qti.hardware.factory.xml \
     vendor/oneplus/sm8650-common/proprietary/vendor/etc/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt \
-    vendor/oneplus/sm8650-common/proprietary/vendor/etc/qvr/cfg/557/0/65536/mtplanai.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/557/0/65536/mtplanai.txt \
-    vendor/oneplus/sm8650-common/proprietary/vendor/etc/qvr/cfg/557/0/65536/mtplanai_6dof_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/557/0/65536/mtplanai_6dof_config.xml \
-    vendor/oneplus/sm8650-common/proprietary/vendor/etc/qvr/cfg/557/0/65536/mtplanai_qvr_3dof_tracker_config.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/557/0/65536/mtplanai_qvr_3dof_tracker_config.txt \
-    vendor/oneplus/sm8650-common/proprietary/vendor/etc/qvr/qvr_hid_device_list.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/qvr_hid_device_list.txt \
-    vendor/oneplus/sm8650-common/proprietary/vendor/etc/qvr/qvr_usb_device_list.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/qvr_usb_device_list.txt \
-    vendor/oneplus/sm8650-common/proprietary/vendor/etc/qvr/qvrservice_config.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/qvrservice_config.txt \
     vendor/oneplus/sm8650-common/proprietary/vendor/etc/seccomp_policy/codec2.vendor.base-arm64.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/codec2.vendor.base-arm64.policy \
     vendor/oneplus/sm8650-common/proprietary/vendor/etc/seccomp_policy/codec2.vendor.ext-arm64.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/codec2.vendor.ext-arm64.policy \
     vendor/oneplus/sm8650-common/proprietary/vendor/etc/seccomp_policy/qspm.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qspm.policy \
     vendor/oneplus/sm8650-common/proprietary/vendor/etc/seccomp_policy/qti-systemd.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qti-systemd.policy \
-    vendor/oneplus/sm8650-common/proprietary/vendor/etc/seccomp_policy/qvr@2.0.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qvr@2.0.policy \
     vendor/oneplus/sm8650-common/proprietary/vendor/etc/seccomp_policy/qwesd@2.0.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qwesd@2.0.policy \
-    vendor/oneplus/sm8650-common/proprietary/vendor/etc/seccomp_policy/sxr@2.0.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/sxr@2.0.policy \
     vendor/oneplus/sm8650-common/proprietary/vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/vendor.qti.hardware.dsp.policy \
     vendor/oneplus/sm8650-common/proprietary/vendor/etc/seccomp_policy/wfdhdcphalservice.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/wfdhdcphalservice.policy \
     vendor/oneplus/sm8650-common/proprietary/vendor/etc/seccomp_policy/wfdvndservice.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/wfdvndservice.policy \
@@ -299,7 +285,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8650-common/proprietary/vendor/etc/sensors/sns_reg_config:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sns_reg_config \
     vendor/oneplus/sm8650-common/proprietary/vendor/etc/ssg/ta_config.json:$(TARGET_COPY_OUT_VENDOR)/etc/ssg/ta_config.json \
     vendor/oneplus/sm8650-common/proprietary/vendor/etc/ssg/tz_whitelist.json:$(TARGET_COPY_OUT_VENDOR)/etc/ssg/tz_whitelist.json \
-    vendor/oneplus/sm8650-common/proprietary/vendor/etc/vmmgr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/vmmgr.conf \
     vendor/oneplus/sm8650-common/proprietary/vendor/etc/wfdconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wfdconfig.xml \
     vendor/oneplus/sm8650-common/proprietary/vendor/etc/wifi/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \
     vendor/oneplus/sm8650-common/proprietary/vendor/etc/wifi/vendor_cmd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/vendor_cmd.xml \
@@ -342,10 +327,6 @@ PRODUCT_PACKAGES += \
     libAlacSwDec \
     libApeSwDec \
     libCB \
-    libDcfHalFramework \
-    libDcfHalLogger \
-    libDcfHalQtiMutex \
-    libDspIOProxy_stub \
     libEvrcSwCodec \
     libFace3DTA \
     libFace3D_hlos \
@@ -355,17 +336,13 @@ PRODUCT_PACKAGES += \
     libGPTEE_vendor \
     libGPreqcancel \
     libGPreqcancel_svc \
-    libMapService \
     libOpenCL \
     libOpenCL_adreno \
     libPeripheralStateUtils \
     libQ6MSFR_manager_stub \
-    libQEGA.qti \
     libQSEEComAPI \
     libQcelp13SwCodec \
-    libScenescape \
     libSensorsInterface \
-    libStereoRectifyWrapper \
     libTxPwrJni \
     libVoiceSdk \
     libadm \
@@ -400,16 +377,12 @@ PRODUCT_PACKAGES += \
     libeai_float \
     libeva \
     libeva_util \
-    libeye_tracking_dsp_sample_stub \
     libface3d_dev \
     libfastcvdsp_stub \
     libfastcvopt \
     libgpt \
     libgpudataproducer \
     libgsl \
-    libhalide_hexagon_host \
-    libhdcp1prov \
-    libhdcp2p2prov \
     libhdcpsrm \
     libidl \
     libkcl \
@@ -459,7 +432,6 @@ PRODUCT_PACKAGES += \
     libperfgluelayer \
     libperfioctl \
     libperipheral_client \
-    libpolygon \
     libq-perflog \
     libqc2audio_base \
     libqc2audio_basecodec \
@@ -511,13 +483,6 @@ PRODUCT_PACKAGES += \
     libqtiidentitycredential \
     libqtikeymaster4 \
     libqtikeymint \
-    libqvr_cam_cdsp_driver_stub \
-    libqvr_cdsp_driver_stub \
-    libqvr_eyetracking_plugin \
-    libqvrcamera_client.qti \
-    libqvrcameraplayback \
-    libqvrservice \
-    libqvrservice_client.qti \
     librpmb \
     libscveCommon \
     libscveCommon_stub \
@@ -541,14 +506,11 @@ PRODUCT_PACKAGES += \
     libsnsdiaglog \
     libsnsutils \
     libsoc_helper \
-    libspcom \
     libspl \
     libssc_default_listener \
     libssd \
     libstreamparser \
     libsubsystem_control \
-    libsxrservice \
-    libsxrservice_client.qti \
     libsynx \
     libsysmon_cdsp_skel \
     libsystem_health_mon \
@@ -557,7 +519,6 @@ PRODUCT_PACKAGES += \
     libthermalclient \
     libthreadutils \
     libtime_genoff \
-    libtracker_6dof_impl \
     libtrustedapploader \
     libubwcp \
     libvideotxr \
@@ -618,14 +579,11 @@ PRODUCT_PACKAGES += \
     libquasar \
     libshoebox \
     vendor.qti.diaghal@1.0_vendor \
-    vendor.qti.esepowermanager@1.0 \
     vendor.qti.hardware.alarm-V1-ndk \
     vendor.qti.hardware.bluetooth_sar@1.0 \
     vendor.qti.hardware.bluetooth_sar@1.1 \
     vendor.qti.hardware.bttpi-V3-ndk \
     vendor.qti.hardware.dsp@1.0 \
-    vendor.qti.hardware.factory@1.0 \
-    vendor.qti.hardware.factory@1.1 \
     vendor.qti.hardware.fm@1.0 \
     vendor.qti.hardware.hexlp-V1-ndk \
     vendor.qti.hardware.limits@1.0 \
@@ -640,7 +598,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.qseecom-V1-ndk \
     vendor.qti.hardware.qseecom@1.0 \
     vendor.qti.hardware.qteeconnector@1.0 \
-    vendor.qti.hardware.qxr-V1-ndk \
     vendor.qti.hardware.sensorscalibrate-V1-ndk \
     vendor.qti.hardware.vpp-V1-ndk \
     vendor.qti.hardware.vpp@1.1 \
@@ -651,7 +608,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.memory.pasrmanager-V1-ndk \
     vendor.qti.qccvndhal_aidl-V1-ndk_vendor \
     vendor.qti.qccvndhal_aidl-halimpl \
-    vendor.qti.qegahal-V1-ndk_platform \
     vendor.qti.qspmhal-V1-ndk \
     vendor.qti.qspmhal-impl \
     vendor.qti.qspmhal@1.0 \
@@ -738,20 +694,17 @@ PRODUCT_PACKAGES += \
     manifest_identity_credential.xml \
     vendor.qti.diag.hal.service.xml \
     vendor.qti.hardware.alarm.xml \
-    vendor.qti.hardware.factory.ifactory.xml \
     vendor.qti.hardware.hexlp-service.xml \
     vendor.qti.hardware.limits-service.xml \
     vendor.qti.hardware.perf2.xml \
     vendor.qti.hardware.qconfig-service.xml \
     vendor.qti.hardware.qseecom@1.0-service.xml \
-    vendor.qti.hardware.qxr-service.xml \
     vendor.qti.hardware.sensorscalibrate.xml \
     vendor.qti.hardware.servicetrackeraidl-service.xml \
     vendor.qti.hardware.vpp-service.xml \
     vendor.qti.hardware.wifidisplaysession-service.xml \
     vendor.qti.qccvndhal_aidl-service.xml \
     vendor.qti.qspmhal-service.xml \
-    vendor.qti.qccsyshal_aidl-service.xml \
     manifest_oplus_charger_aidl.xml \
     manifest_touch_aidl.xml \
     KmInstallKeybox \
@@ -761,19 +714,14 @@ PRODUCT_PACKAGES += \
     cnss-daemon \
     diag-router \
     dspservice \
-    hdcp1prov \
-    hdcp2p2prov \
     hexlpservice \
     android.hardware.bluetooth@1.1-service-qti \
     android.hardware.gatekeeper-service-qti \
     android.hardware.identity-service-qti \
     android.hardware.security.keymint-service-qti \
     qconfigservice \
-    sxrservice \
     vendor.qti.hardware.alarm-service \
     vendor.qti.hardware.capabilityconfigstore@1.0-service \
-    vendor.qti.hardware.factory-service \
-    vendor.qti.hardware.factory@1.0-service \
     vendor.qti.hardware.limits@1.2-service \
     vendor.qti.hardware.perf2-hal-service \
     vendor.qti.hardware.qseecom@1.0-service \
@@ -796,7 +744,6 @@ PRODUCT_PACKAGES += \
     init.qti.write \
     irsc_util \
     loadalgo \
-    mmid \
     pd-mapper \
     pm-proxy \
     pm-service \
@@ -807,9 +754,6 @@ PRODUCT_PACKAGES += \
     qrtr-lookup \
     qrtr-ns \
     qseecomd \
-    qvrdatalogger \
-    qvrdatauploader \
-    qvrservicetest \
     qwesd \
     sensors.qti \
     sscrpcd \
@@ -822,10 +766,8 @@ PRODUCT_PACKAGES += \
     tftp_server \
     thermal-engine-v2 \
     time_daemon \
-    ubwcconvert \
     vendor.qti.qspmhal-service \
     vendor_modprobe \
-    vmmgr \
     vppservice \
     wfdhdcphalservice \
     wfdvndservice \
@@ -838,7 +780,6 @@ PRODUCT_PACKAGES += \
     vendor-oplus-hardware-touch-V2-service \
     vendor.oplus.hardware.charger-V11-service \
     wlschgd \
-    init.oplus.wifi \
     oldc_vnd \
     oplus_sensor_fb \
     touchDaemon
@@ -1188,7 +1129,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.embmssl@1.0 \
     vendor.qti.hardware.embmssl@1.1 \
     vendor.qti.hardware.embmsslaidl-V1-ndk \
-    vendor.qti.hardware.factory-V1-ndk \
     vendor.qti.hardware.mwqemadapter@1.0 \
     vendor.qti.hardware.mwqemadapteraidlservice-V1-ndk \
     vendor.qti.hardware.radio.am-V1-ndk \
